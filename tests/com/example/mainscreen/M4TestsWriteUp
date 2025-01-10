@@ -1,0 +1,47 @@
+M4 Tests
+
+
+1: enemiesMove()
+This tests to see if the enemies are moving correctly throughout the path.
+The method assesses if the end point of the enemy is correct with the expected
+end point in terms of the gridPane layout.
+
+2: gameOverScreenPops()
+This tests if the game over screen is displayed at the correct event. The method runs the start combat method, in which the
+enemy should be able to reach the monument, and decrease its health to zero since there are no towers and prompts
+the game over screen at the end.
+
+3: monumentHealthDec()
+This tests to make sure the monument health is decreasing correctly. It creates a new instance of the
+game screen, runs the start combat method in which the enemies reach the monument, then makes sure the
+monument of the health has decreased to 0.
+
+4: enemiesOnGrid()
+This tests to make sure that all enemies have been placed on the grid after the starCombat() method
+has been run in which the monument has been reached, and health decreases to zero. It checks to see
+if the EnemiesOnGrid( ) assertion is true.
+
+5: iteratorWorks()
+This tests to make sure that the iterator count has been increased after the startComabt() method has
+been run, to make sure the while loop is running accordingly. It checks to see if the IteratorWokrs()
+assertion is true.
+
+6: towerPlaced()
+This tests to make sure the TowerPlaced field is set to true after the towers have been placed
+on the screen.
+
+7: enemiesExist()
+This method tests that the enemies can be placed at the start of the map by calling the startCombat()
+method on a new instance of the game and getting asserting that the Y coordinate of the enemy
+position is not null.
+
+8: gameOverScreenPlayAgain()
+This method
+
+9: monumentHealthExists()
+This method checks that the monument health exists, and is not null.
+
+10: moneyExists()
+This method checks that the money variable exists, and is not null.
+
+
